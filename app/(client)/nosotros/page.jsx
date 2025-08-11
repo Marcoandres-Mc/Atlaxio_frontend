@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <>
-    <section className="bg-white text-gray-800 py-16 px-4 md:px-10 lg:px-20">
+    <section className="mt-24 bg-white text-gray-800 py-16 px-4 md:px-10 lg:px-20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-10 text-center border-b-4 border-blue-500 inline-block">
           ¿Quiénes somos?
@@ -85,61 +85,7 @@ const page = () => {
     </section>
 
 
-    <section className="bg-white py-12 px-6 lg:px-24">
-  <div className="max-w-7xl mx-auto">
-    <h2 className="text-4xl font-bold text-center mb-10">Únete como Practicante</h2>
-
-    <div className="flex flex-col lg:flex-row gap-10 items-center">
-      <img
-        src="https://actualidadlaboral.com/wp-content/uploads/2020/03/practicantes-1024x576.jpg"
-        alt="Practicantes"
-        className="rounded-2xl shadow-lg w-full lg:w-1/2 object-cover max-h-[400px]"
-      />
-
-      <div className="w-full lg:w-1/2 space-y-6">
-        <p className="text-gray-700 text-lg">
-          En nuestra empresa creemos en el poder de los nuevos talentos. Buscamos estudiantes motivados, creativos y con ganas de aprender en un entorno profesional dinámico.
-        </p>
-
-        <ul className="space-y-4">
-          <li className="flex items-start">
-            <span className="text-green-500 text-xl mr-3">✔</span>
-            <p><strong>Practicante de Administración:</strong> Apoyo en procesos administrativos, gestión de documentos y coordinación interna.</p>
-          </li>
-          <li className="flex items-start">
-            <span className="text-green-500 text-xl mr-3">✔</span>
-            <p><strong>Practicante Frontend Developer:</strong> Desarrollo de interfaces en React, Tailwind y diseño responsivo.</p>
-          </li>
-          <li className="flex items-start">
-            <span className="text-green-500 text-xl mr-3">✔</span>
-            <p><strong>Practicante Backend Developer:</strong> Implementación de APIs, manejo de bases de datos y lógica de negocio.</p>
-          </li>
-          <li className="flex items-start">
-            <span className="text-green-500 text-xl mr-3">✔</span>
-            <p><strong>Practicante de Diseño:</strong> Creación de piezas gráficas, branding y diseño UI/UX.</p>
-          </li>
-          <li className="flex items-start">
-            <span className="text-green-500 text-xl mr-3">✔</span>
-            <p><strong>Practicante de Marketing:</strong> Estrategias digitales, redes sociales y análisis de métricas.</p>
-          </li>
-          <li className="flex items-start">
-            <span className="text-green-500 text-xl mr-3">✔</span>
-            <p><strong>Practicante de Psicología:</strong> Apoyo en clima organizacional, entrevistas y bienestar del equipo.</p>
-          </li>
-        </ul>
-
-        <div className="text-center mt-8">
-          <a
-            href="#formulario"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition"
-          >
-            Postula Ahora
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    
     </>
   )
 }

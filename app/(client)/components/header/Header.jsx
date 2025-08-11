@@ -77,7 +77,7 @@ export default function Header() {
 
     return (
         <>
-            <div className={`containerF w-full justify-center bg-[#001C27] flex flex-row ${menuActive ? "full-height" : ""}`}>
+            <div className={` containerF fixed top-0 left-0 z-50 w-full justify-center bg-[#001C27] flex flex-row ${menuActive ? "full-height" : ""}`}>
                 <header
                     className={`bg-[#001C27] header-container h-[100px]  flex items-center justify-around gap-6 px-5 ${menuActive ? "menu-active" : ""}`}
                 >

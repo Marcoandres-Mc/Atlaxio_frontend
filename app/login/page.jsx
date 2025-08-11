@@ -14,7 +14,14 @@ const page = () => {
     };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+    <>
+    
+    <div className="min-h-screen h-full flex flex-col items-center  bg-gray-100 ">
+      <div className='bg-[#001C27] h-22 flex items-center justify-center mb-8 w-full'>
+        <figure className='w-auto h-22'>
+          <img className='h-full' src="/principal/logo.jpg" alt="Logo" />
+        </figure>
+      </div>
       <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-md">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
           Iniciar Sesión
@@ -52,11 +59,12 @@ const page = () => {
           </button>
 
           <p className="text-sm text-center text-gray-600 mt-4">
-            ¿No tienes una cuenta? <a href="#" className="text-blue-500 hover:underline">Regístrate</a>
+            *Uso para personal autorizado
           </p>
         </form>
       </div>
     </div>
+    </>
 
   )
 }

@@ -2,55 +2,70 @@ import React from 'react'
 
 function page() {
   return (
-    <>
-<section className="relative bg-gray-900 text-white min-h-screen flex items-center justify-center px-6">
-        {/* Fondo con imagen superpuesta */}
-        <div className="absolute inset-0">
-          <img
-            src="https://actualidadlaboral.com/wp-content/uploads/2020/03/practicantes-1024x576.jpg"
-            alt="Fondo tecnológico"
-            className="w-full h-full object-cover opacity-20"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-60" />
-        </div>
-
-        {/* Contenido principal */}
-        <div className="relative z-10 text-center max-w-3xl">
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-            Oportunidad para Practicantes
-          </h1>
-          <p className="text-lg sm:text-xl mb-8">
-            En nuestra empresa brindamos espacio a estudiantes o egresados que buscan ganar experiencia real en proyectos tecnológicos. Trabajamos con practicantes comprometidos y con ganas de aprender, mientras les ofrecemos una carta de recomendación, acompañamiento, mentoría y proyectos reales para su portafolio.
+    <div className='bg-gray-50 text-gray-900'>
+    <section className="mt-24 text-center py-16 bg-gradient-to-br from-blue-600 to-indigo-700 text-white">
+        <div className="max-w-4xl mx-auto px-6">
+          <h1 className="text-4xl font-bold mb-4">Únete como Practicante</h1>
+          <p className="text-lg">
+            En nuestra empresa creemos en el poder de los nuevos talentos. Buscamos estudiantes motivados, creativos y con ganas de aprender en un entorno profesional dinámico.
           </p>
-          
         </div>
       </section>
+<section className="bg-gray-100 py-12 px-6 lg:px-24">
+  <div className="py-8 max-w-7xl mx-auto px-6">
+    <h2 className="text-3xl font-bold text-center">Beneficios</h2>
+
+    <div className="flex flex-col lg:flex-row gap-10 items-center p-10">
+      <figure className='w-full lg:w-1/2 mb-6 lg:mb-0'>
+        <img
+          src="https://actualidadlaboral.com/wp-content/uploads/2020/03/practicantes-1024x576.jpg"
+          alt="Practicantes"
+          className=" w-full h-auto rounded-lg shadow-lg"
+        />
+      </figure>
 
 
-<section className="bg-white py-16 px-4 md:px-10">
-  <div className="max-w-5xl mx-auto">
-    <div className="grid md:grid-cols-3 gap-6 text-center">
-      <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
-        <h3 className="text-xl font-semibold text-gray-700 mb-2">Experiencia Real</h3>
-        <p className="text-gray-600">Participa en proyectos que llegan a clientes reales y mejora tu perfil profesional.</p>
-      </div>
-      <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
-        <h3 className="text-xl font-semibold text-gray-700 mb-2">Mentoría Constante</h3>
-        <p className="text-gray-600">No estarás solo. Te guiamos paso a paso con buenas prácticas y soporte técnico.</p>
-      </div>
-      <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
-        <h3 className="text-xl font-semibold text-gray-700 mb-2">Certificación</h3>
-        <p className="text-gray-600">Al finalizar tu proceso, obtienes una carta de recomendación o constancia para tu universidad.</p>
-      </div>
-    </div>
+      <div className="w-full lg:w-1/2 space-y-6">
+        
 
-    <div className="text-center mt-10">
+        <ul className="space-y-4">
+          <li className="flex items-start">
+            <span className="text-green-500 text-xl mr-3">✔</span>
+            <p><strong>Aprendizaje práctico:</strong> Trabaja en proyectos reales de software, aplicaciones y soluciones tecnológicas.</p>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 text-xl mr-3">✔</span>
+            <p><strong>Mentoría constante:</strong> Recibe acompañamiento de profesionales con experiencia en desarrollo y diseño.</p>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 text-xl mr-3">✔</span>
+            <p><strong>Flexibilidad de horario:</strong> Compatibiliza tu práctica con estudios u otras actividades.</p>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 text-xl mr-3">✔</span>
+            <p><strong>Oportunidad de crecimiento:</strong> Posibilidad de incorporación a la empresa al finalizar la práctica.</p>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 text-xl mr-3">✔</span>
+            <p><strong>Entorno innovador:</strong> Participa en un equipo creativo y enfocado en soluciones digitales modernas.</p>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 text-xl mr-3">✔</span>
+            <p><strong>Networking profesional:</strong> Conecta con clientes, startups y expertos en tecnología.</p>
+          </li>
+        </ul>
+
+
+        <div className="text-center mt-10">
       <a href="#contacto" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-blue-700 transition">
         ¿Quieres unirte como practicante?
       </a>
     </div>
+      </div>
+    </div>
   </div>
 </section>
+
 
 <section className="py-16 px-4 md:px-10 bg-[#001C27]">
   <div className="max-w-6xl mx-auto">
@@ -152,7 +167,7 @@ function page() {
   </div>
 </section>
 
-</>
+</div>
   )
 }
 export default page;

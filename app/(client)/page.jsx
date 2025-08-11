@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-    <section className="relative bg-gray-900 text-white min-h-screen flex items-center justify-center px-6">
+    <section className="mt-24 relative bg-gray-900 text-white min-h-screen flex items-center justify-center px-6">
         {/* Fondo con imagen superpuesta */}
         <div className="absolute inset-0">
           <img
@@ -40,7 +40,7 @@ export default function Home() {
       </section>
 
       {/* ¿Quiénes Somos? */}
-      <section className="bg-white py-20 px-6 text-center text-gray-800">
+      <section className="bg-white py-40 px-6 text-center text-gray-800">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">¿Quiénes Somos?</h2>
           <p className="text-lg sm:text-xl leading-relaxed">
@@ -49,23 +49,36 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section id="servicios" className="bg-gray-100 py-20 px-6 text-gray-800">
+      <section id="servicios" className="bg-gray-100 py-40 px-6 text-gray-800">
         <div className="max-w-6xl mx-auto text-center">
+          
           <h2 className="text-3xl sm:text-4xl font-bold mb-12">Nuestros Servicios</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
+              <figure className="mb-4 h-[150px] flex items-center justify-center">
+                <img src="inicio/Dweb.png" className="h-full" alt="" />
+              </figure>
               <h3 className="text-xl font-semibold mb-2">Desarrollo Web</h3>
               <p className="text-sm text-gray-600">Sitios, landing pages y tiendas online modernas, rápidas y escalables.</p>
             </div>
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
+              <figure className="mb-4 h-[150px] flex items-center justify-center">
+                <img src="inicio/Dsoftware.png" className="h-full" alt="" />
+              </figure>
               <h3 className="text-xl font-semibold mb-2">Desarrollo de Software</h3>
               <p className="text-sm text-gray-600">Sistemas personalizados para mejorar tus procesos y productividad.</p>
             </div>
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
+              <figure className="mb-4 h-[150px] flex items-center justify-center">
+                <img src="inicio/App.png" className="h-full" alt="" />
+              </figure>
               <h3 className="text-xl font-semibold mb-2">Aplicaciones Móviles</h3>
               <p className="text-sm text-gray-600">Próximamente: apps móviles que conectan con tus usuarios donde sea.</p>
             </div>
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
+              <figure className="mb-4 h-[150px] flex items-center justify-center">
+                <img src="inicio/Consulta.png" className="h-full" alt="" />
+              </figure>
               <h3 className="text-xl font-semibold mb-2">Consultoría Tecnológica</h3>
               <p className="text-sm text-gray-600">Automatizamos procesos y guiamos tu transformación digital.</p>
             </div>
@@ -73,7 +86,7 @@ export default function Home() {
         </div>
       </section>
 
-<section className="bg-white py-20 px-6 text-gray-800">
+<section className="bg-white py-40 px-6 text-gray-800">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-12">¿Cómo trabajamos?</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -118,7 +131,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-100 py-16 px-4 md:px-10">
+      <section className="bg-gray-100 py-40 px-4 md:px-10">
   <div className="max-w-4xl mx-auto text-center">
     <h2 className="text-3xl font-bold text-gray-800 mb-8">Preguntas Frecuentes</h2>
 

@@ -39,7 +39,7 @@ const page = () => {
   return (
     <>
 
-    <main className="bg-gray-50 text-gray-900">
+    <main className="mt-24 bg-gray-50 text-gray-900">
       <section className="text-center py-16 bg-gradient-to-br from-blue-600 to-indigo-700 text-white">
         <div className="max-w-4xl mx-auto px-6">
           <h1 className="text-4xl font-bold mb-4">Servicios de Desarrollo de Software</h1>
